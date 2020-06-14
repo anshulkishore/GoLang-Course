@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	arr := []int{1, 2, 3}
+	arr := [3]int{1, 2, 3}
 
 	for _, v := range arr {
 		fmt.Println(v)
 	}
-	fmt.Println(arr)
+	fmt.Printf("%T", arr)
 }
