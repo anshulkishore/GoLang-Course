@@ -33,14 +33,8 @@ func main() {
 	fmt.Println("const d : ", d)
 	fmt.Println("const e : ", e)
 	fmt.Println("const f : ", f)
-	fmt.Printf("%T\n", d)
-	fmt.Printf("%T\n", e)
-	fmt.Printf("%T\n", f)
 
 	fmt.Println("const p : ", p)
 	fmt.Println("const q : ", q)
 	fmt.Println("const r : ", r)
-	fmt.Printf("%T\n", p)
-	fmt.Printf("%T\n", q)
-	fmt.Printf("%T\n", r)
 }
