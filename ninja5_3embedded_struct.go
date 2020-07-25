@@ -1,6 +1,6 @@
 package main
 
-import(
+import (
 	"fmt"
 )
 
@@ -25,11 +25,11 @@ func main() {
 			doors: 2,
 			color: "black",
 		},
-		fourWheel : true,
+		fourWheel: true,
 	}
 
 	s2 := sedan{
-		vehicle : vehicle{
+		vehicle: vehicle{
 			doors: 4,
 			color: "Silver",
 		},
